@@ -18,10 +18,10 @@ if different than the default values of `wifi_fuzzy`
 IP if defferent than the default value of `192.168.42.1`
 
 4) Execute the `0_install.sh` script *AS SUDO*.  
-This will download and install hostapd and isc-dhsc-server.
+This will download and install hostapd and isc-dhcp-server.
 
 5) Repeat for scripts 1 through 6.  
-These will set up/configure hostapd and isc-dhsc-server.
+These will set up/configure hostapd and isc-dhcp-server.
 The pi should now be broadcasting the SSID.
 
 6) After script 6, test to see if you can connect to your pi's wireless access point
