@@ -54,3 +54,6 @@ __TO RE-ENABLE:__
 2) Execute the `0_re_enable_hot.sh` as SUDO
 
 3) Reboot
+
+__MIND MAP__  
+![mindmap](wapSetUp_freeplane_mindmap_snapshot.JPG)
