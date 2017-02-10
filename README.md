@@ -57,3 +57,8 @@ __TO RE-ENABLE:__
 
 __MIND MAP__  
 ![mindmap](wapSetUp_freeplane_mindmap_snapshot.JPG)
+
+__References__
+[https://learn.adafruit.com/setting-up-a-raspberry-pi-as-a-wifi-access-point/overview](https://learn.adafruit.com/setting-up-a-raspberry-pi-as-a-wifi-access-point/overview)
+
+[https://www.raspberrypi.org/forums/viewtopic.php?f=28&t=152603](https://www.raspberrypi.org/forums/viewtopic.php?f=28&t=152603)
