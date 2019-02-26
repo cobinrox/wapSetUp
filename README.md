@@ -17,7 +17,7 @@ ethernet cable are connected.
 3) Edit the __`init/2_n2h_setHostIP.sh`__ file and set your preferred static/host
 IP if different than the default value of `192.168.42.1`
 
-4) Execute the `init/0_n2h_install.sh` script *AS SUDO*.
+4) From the root dir, execute the `init/0_n2h_install.sh` script *AS SUDO*.
 This will download and install hostapd and isc-dhcp-server.
 
 5) Repeat (execute as SUDO) for scripts 1 through 4.
