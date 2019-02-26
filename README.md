@@ -15,12 +15,12 @@ ethernet cable are connected.
 2) Edit the __`init/hostapd.conf.hot`__ file and enter your preferred SSID; the default value is `wifi_fuzzy`
 
 3) Edit the __`init/2_n2h_setHostIP.sh`__ file and set your preferred static/host
-IP if defferent than the default value of `192.168.42.1`
+IP if different than the default value of `192.168.42.1`
 
 4) Execute the `init/0_n2h_install.sh` script *AS SUDO*.
 This will download and install hostapd and isc-dhcp-server.
 
-5) Repeat for scripts 1 through 4.
+5) Repeat (execute as SUDO) for scripts 1 through 4.
 These will set up/configure hostapd and isc-dhcp-server.
 
 6) Run script 6, which will run hostapd and broadcast the SSID.
