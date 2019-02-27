@@ -1,6 +1,6 @@
 # wapSetUp
 A set of Raspi wireless access point setup scripts to a) install and then optionally b) disable and optionally c) re-enable.  
-Tested and worked with EDIMAX wireless adapter with Jesse Lite.
+Tested and worked with EDIMAX wireless adapter with Jesse Lite, and Raspberry Pi Zero W/w Jesse, could not get it working/w Raspbian Stretch, however.
 Based on information from:
 [https://learn.adafruit.com/setting-up-a-raspberry-pi-as-a-wifi-access-point/overview](https://learn.adafruit.com/setting-up-a-raspberry-pi-as-a-wifi-access-point/overview)  
 WARNING: NOT SECURE (NO WPA) AT THIS TIME
