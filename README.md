@@ -10,18 +10,23 @@ __TO USE INITIALLY (INSTALL FROM SCRATCH)__
 0) Either connect to your pi via serial console or ensure both wireless AND
 ethernet cable are connected.
 
-1) Download this project's files to a directory on the pi, e.g. __`/home/pi/wapSetUp`__
+1) Download this project's files to a directory on the pi, e.g. __`/home/pi/wapSetUp`__.  You might have to chmod +x on the scripts after downloading.
 
 2) Edit the __`init/hostapd.conf.hot`__ file and enter your preferred SSID; the default value is `wifi_fuzzy`
 
 3) Edit the __`init/2_n2h_setHostIP.sh`__ file and set your preferred static/host
 IP if different than the default value of `192.168.42.1`
 
-4) From the root dir, execute the `init/0_n2h_install.sh` script *AS SUDO*.
-This will download and install hostapd and isc-dhcp-server.
+4) From the project's root dir, execute the `init/0_n2h_install.sh` script *AS SUDO*.
+This will download and install hostapd and isc-dhcp-server. For example:
+`/home/pi/wapSetUp$ sudo init/0_n2h_install.sh`
 
 5) Repeat (execute as SUDO) for scripts 1 through 4.
-These will set up/configure hostapd and isc-dhcp-server.
+These will set up/configure hostapd and isc-dhcp-server. For example:
+`/home/pi/wapSetUp$ sudo init/1_<tabkey>.sh`
+`/home/pi/wapSetUp$ sudo init/2_<tabkey>.sh`
+`/home/pi/wapSetUp$ sudo init/3_<tabkey>.sh`
+`/home/pi/wapSetUp$ sudo init/4_<tabkey>.sh`
 
 6) Run script 6, which will run hostapd and broadcast the SSID.
 Test to see if you can connect to your pi's wireless access point
